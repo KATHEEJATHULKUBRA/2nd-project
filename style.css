@@ -1,0 +1,585 @@
+body{
+  margin: 0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-icon {
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger-icon .fa-bars,
+.hamburger-icon .fa-x {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hamburger-icon input[type="checkbox"] {
+    appearance: none;
+}
+
+.container1 {
+    color: white;
+    background-color: rgb(231 50 50);
+    width: 25%;
+    height: 100vh;
+    position: sticky;
+    z-index: 1;
+    border-radius: 4px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 30px;
+    gap: 1rem;
+}
+
+.navbr h2 {
+     position: absolute;
+    top: 14%;
+    padding-left: 20px;
+    /* left: 8%; */
+    font-size: 30px;
+}
+
+.navbr li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+   padding: 10px;
+   border-radius: 15px;
+
+}
+
+.container2 {
+   width: 75%;
+
+}
+.secdiv1,.secdiv2,.secdiv3,.secdiv4,.secdiv5{
+    padding-left: 40px;
+}
+
+ .hrall{
+    width: 55px;
+    border-radius: 5px;
+    border: 5px solid red;
+
+
+ }
+
+.container2 h3 {
+    color: rgb(231 50 50);
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container2 img {
+    width: 420px;
+    height: 400px;
+    transition: transform .4s ease-in;
+}
+
+.container2 img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.secdiv1 h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.secdiv1 p {
+    color: rgb(231 50 50);
+    font-weight: bolder;
+    font-size: 54px;
+
+}
+
+.secdiv3 .cda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border: 1px whitesmoke;
+}
+
+.secdiv3 .cda:hover {
+    cursor: pointer;
+}
+
+.cda .name p {
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.cda .job h3 {
+    color: gray;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.cda .job p {
+    text-align: center;
+}
+
+.little {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    width: 280px;
+    height: 200px;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-bottom: 22px;
+}
+
+.jane img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.john img {
+    width: 300px;
+    height: 200px;
+}
+
+.secdiv4 .equal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secdiv4 .table {
+    border: none;
+    background-color: whitesmoke;
+}
+
+
+tbody td {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    width: 415px;
+    height: 50px;
+}
+
+thead th {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    width: 415px;
+    height: 80px;
+
+}
+
+thead th.head {
+    color: white;
+    background-color: #616161;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+thead th.head1 {
+    color: white;
+    background-color: rgb(231 50 50);
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+tbody td.body {
+
+    width: 415px;
+    height: 110px;
+    font-size: 30px;
+    text-align: center;
+}
+
+tbody td.body p {
+    color: #616161;
+    font-size: 15px;
+}
+
+tbody td.sign {
+    width: 415px;
+    height: 90px;
+    border-bottom: none;
+}
+
+tbody td.sign1 {
+    width: 415px;
+    height: 90px;
+    border-bottom: none;
+}
+
+tbody td .signup {
+    width: 110px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 2px;
+}
+
+.signup:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.signup1:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+tbody td .signup1 {
+    width: 110px;
+    height: 45px;
+    border: none;
+    background-color: rgb(231 50 50);
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 2px;
+}
+
+.secdiv4 .table1 {
+    border: none;
+    width: 415px;
+    background-color: whitesmoke;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.secdiv5 .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.secdiv5 input {
+    width: 490px;
+    height: 40px;
+    margin: 10px;
+    border-color: 2px lightgray;
+}
+
+.secdiv5 .send {
+    width: 495px;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(231 50 50);
+}
+
+.send:hover {
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+
+}
+
+.secdiv5 {
+    height: 535px;
+    width: 90%;
+
+}
+
+.footer .icon ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.icon li {
+    list-style: none;
+}
+
+.string {
+    text-align: center;
+    font-size: 20px;
+}
+
+.socialicon ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialicon li {
+    list-style: none;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color:  rgb(174 6 6 / 72%);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: white;
+}
+
+/* Media Query */
+@media screen and (max-width: 575px) {
+    .header {
+        display: block;
+        position: absolute;
+        top: 30px;
+    }
+
+    .hamburger-icon {
+        display: block;
+        font-size: 24px;
+    }
+
+
+    .fa-x {
+        display: none;
+    }
+    .header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
+        display: none;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+
+        height: 300px;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+        background-color: rgb(231 50 50);
+        width: 150px;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 80px;
+        border-radius: 3px solid;
+        position: fixed;
+
+    }
+    .cda{
+       flex-wrap: wrap;
+    }
+    .secdiv5{
+        height: 580px;
+        width: 80%;
+    }
+    .secdiv5 input{
+        width: 341px;
+        height: 40px;
+        margin: 10px;
+    }
+    .secdiv5 .send{
+        width: 361px;
+        height: 50px;
+    }
+    
+    .secdiv1,.secdiv2,.secdiv3,.secdiv4{
+        width: 100%;
+    }
+    
+
+     .navbr h2 {
+         position: absolute;
+         top: -33px;
+         left: 30px;
+         width: 400px;
+
+    }
+
+    .container2 {
+       position: absolute;
+       top: 40px;
+       left: 0;
+       width: 96vw;
+
+    }
+
+      .secdiv1 h1 {
+        height: 8px;
+        font-size: 44px;
+        width: 333px;
+
+    }  
+    .secdiv1,.secdiv2,.secdiv3,.secdiv4,.secdiv5,.foot{
+        padding-left: 5px;
+    }
+    .secdiv5 .center{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .secdiv1 img {
+        width: 80vw;
+        height: 45%;
+        padding: 10px;
+
+    }
+    .socialicon ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (min-width: 575px) and (max-width:833px) {
+    .header {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+
+    .hamburger-icon {
+        display: block;
+        font-size: 34px;
+
+    }
+
+    .fa-x {
+        display: none;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+
+        height: 300px;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    .header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+    .header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
+        display: none;
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+        background-color: rgb(231 50 50);
+        width: 300px;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 100px;
+        border-radius: 3px solid;
+        position: fixed;
+
+    }
+
+    .navbr h2 {
+        position: absolute;
+        left: 80px;
+        top: -40px;
+        width: 400px;
+        font-size: 44px;
+        font-weight: bolder;
+    }
+
+    .container2 {
+        position: absolute;
+        top: 40px;
+       
+    }
+
+    .secdiv1 p hr {
+        position: absolute;
+        top: 25px;
+    }
+
+    .secdiv1 h1 {
+        height: 50px;
+    }
+
+    .secdiv1 img {
+        width: 80vw;
+        height: 35%;
+        padding: 10px;
+
+    }
+    .socialicon ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .secdiv2,.secdiv3,.secdiv4.secdiv5.footer{
+        width: 100%;
+    }
+    .footer{
+        background-color: rgb(231 50 50);
+        
+       
+    }
+}
